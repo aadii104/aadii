@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frustro</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+        <nav id="navigation">
+          <div class="navbar navbar-default topbar" role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header mob-div">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <a class="navbar-brand external visible-xs"><%=image_tag "aq.jpg", width:"100%" %></a>
+              </div>
+              <div class="collapse navbar-collapse ">
+                <div class="cotainer top-content hidden-sm hidden-xs">
+                  <div id="row">
+                    <div class="col-lg-2 col-md-2">
+                      <!--logo starts-->
+                      <a class="navbar-brand"><%=image_tag "aq.jpg", width:"100%" %></a>
+                      <!--logo ends-->
+                    </div>
+                  </div>
+                </div>
+                <ul class="nav navbar-nav navbar-right ">
+                     <%if user_signed_in?%>
+                           <li class="text-uppercase">  <%= link_to "new Note", new_note_path%></li>
+                           <li class="text-uppercase"><%= link_to "Sign Out", destroy_user_session_path, method: :delete%></li>
+                     <%else%>
+                            <li class="text-uppercase"><%= link_to "Log In",new_user_session_path%></li>
+                            <li class="text-uppercase"><%= link_to "Sign In",new_user_registration_path%></li>
+                      <%end%>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+   </body>
+ </html>
+
+           <class=""><p class="notice"><%= notice %></p>
+           <p class="alert"><%= alert %></p>
+
+        <%= yield %>
+
+  </body>
+</html>

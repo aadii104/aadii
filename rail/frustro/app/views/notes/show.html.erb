@@ -1,0 +1,7 @@
+<%= @note.title%>
+<%= @note.content%>
+
+<%= link_to "all notes",notes_path %>
+
+<%= link_to "Edit",edit_note_path(@note) %>
+<%= link_to "delete",note_path(@note),method: :delete, data: {confirm: "Are you sure?"} %>

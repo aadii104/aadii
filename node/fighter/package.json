@@ -1,0 +1,15 @@
+{
+  "name": "fighter",
+  "version": "1.0.0",
+  "description": "A freedom fighter gallery",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aadii104",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
+}

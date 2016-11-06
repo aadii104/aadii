@@ -1,0 +1,22 @@
+/*
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import 'normalize.css';
+.img-f{
+  background-image: url("2.note.jpg");
+  width:100%;
+}
+.topbar{
+  font-size:25px;
+  padding-top: 10px;
+  height:100px!important;
+}
+.mob-div{
+  height:80px;
+}
+.navbar-right {
+    margin-right: 56px;
+    margin-top: 10px;
+}

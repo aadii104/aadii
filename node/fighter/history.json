@@ -1,0 +1,60 @@
+{
+  "history": [{
+    "name" : "Mohandas Karamchand Gandhi",
+    "fighter_id" : "1",
+    "helper" : ["Nehru", "kastorbsji", "vineeth raj", "param charan", "albis kivva0", "Darth Maul"],
+    "description" : " More commonly known as ‘Mahatma’ (meaning ‘Great Soul’) was born in Porbandar, Gujarat, in North West India, on 2nd October 1869, into a Hindu Modh family. His father was the Chief Minister of Porbandar, and his mother’s religious devotion meant that his upbringing was infused with the Jain pacifist teachings of mutual tolerance, non-injury to living beings and vegetarianism.",
+    "poster" : "mahatmagandhi225.jpg",
+    "figh_image" : "gandhi.gif"
+  },
+  {
+    "name" : "Shri Jawaharlal Nehru",
+    "fighter_id" : "2",
+    "helper" : ["ravi", "Mooks", "tina", "ambstr", "mishra", "lakhan", "ahesan ", "vinnod"],
+    "description" : "Pt. Jawaharlal Nehru was born in Allabahad on November 14, 1889. He received his early education at home under private tutors. At the age of fifteen, he went to England and after two years at Harrow, joined Cambridge University where he took his tripos in Natural Sciences. He was later called to the Bar from Inner Temple. He returned to India in 1912 and plunged straight into politics. Even as a student, he had been interested in the struggle of all nations who suffered under foreign domination. He took keen interest in the Sinn Fein Movement in Ireland. In India, he was inevitably drawn into the struggle for independence.",
+    "poster" : "nehru_po.jpg",
+    "figh_image" : "nehru.jpeg"
+},
+{
+  "name" : "Subhash Chandra Bose",
+  "fighter_id" : "3",
+  "helper" : ["Ujwal", "Kiran", "tanmay", "KVil", "amit ", "Mohiya", "karan ", "Kundra"],
+  "description" : "Subhash Chandra Bose was one of India’s greatest freedom fighter. He revived the Indian National Army, popularly known as ‘Azad Hind Fauj’ in 1943 which was initially formed in 1942 by Rash Behari Bose. Netaji Subhash Chandra Bose had visited London during pre-independence period to discuss the future of India, with the members of the Labor party. His sudden disappearance from Taiwan, led to surfacing of various theories, unfortunately none of which were investigated thoroughly by successive governments; leaving people in the dark about one of the most beloved leaders India has ever produced.",
+  "poster" : "bose_po.jpg",
+  "figh_image" : "bose.jpg"
+},
+{
+  "name" : "Sarojini Naidu",
+  "fighter_id" : "4",
+  "helper" : ["POmal", "chivan", "Murag", "lookhima", "johan", "simar", "sashank", "ravina"],
+  "description" : "She was the first Indian woman to become the President of the Indian National Congress and the first woman to become the governor of a state in India. Sarojini Naidu was a distinguished poet, renowned freedom fighter and one of the great orators of her time. She was famously known as Bharatiya Kokila (The Nightingale of India). Sarojini Naidu was the first Indian woman to become the President of the Indian National Congress and the first woman to become the governor of a state in India.",
+  "poster" : "sj_po.jpeg",
+  "figh_image" : "sj.jpg"
+},
+{
+  "name" : "Dr. B. R. Ambedkar",
+  "fighter_id" : "5",
+  "helper" : ["komal", "talwar", "mohan", "arun", "chitwan", "poja", "kishore ", "laavi"],
+  "description" : "Dr B R Ambedkar, popularly known as Babasaheb Ambedkar, was one of the architects of the Indian Constitution. He was a well-known politician and an eminent jurist. Ambedkar's efforts to eradicate the social evils like untouchablity and caste restrictions were remarkable. The leader, throughout his life, fought for the rights of the dalits and other socially backward classes. Ambedkar was appointed as the nation's first Law Minister in the Cabinet of Jawaharlal Nehru. He was posthumously awarded the Bharat Ratna, India's highest civilian honor in 1990. ",
+  "poster" : "baba_po.jpg",
+  "figh_image" : "baba.jpeg"
+},
+{
+  "name" : "Bahadur Shah Zafar",
+  "fighter_id" : "6",
+  "helper" : ["shah", "altush", "boltush", "kiltush", "yumtosh", "tumposh", "lookij ", "kimms"],
+  "description" : "Bahadur Shah Zafar, also known as Bahadur Shah II, was the last Mughal emperor of India who reigned from 1837 to 1857 for a period of 20 years. As the second son of Akbar Shah II and Lal Bai, he was not his father’s original choice to ascend the throne. However, circumstances ultimately led to his ascension to the throne after his father’s death. Even as an emperor he did not rule over a large empire; his empire barely extended beyond Delhi's Red Fort. By that time the East India Company was gaining political power in India and the emperor was no longer accorded any real power over the country which had by now fragmented into hundreds of kingdoms and principalities. He was not a very ambitious ruler and thus the British believed that he posed no real threat to them. However, Zafar did play a prominent role during the Indian Rebellion of 1857, fighting for India’s independence from British Rule. Though most famous for being the last Mughal emperor, Zafar was also a very talented Urdu poet and musician in his own right. He had written a large number of ghazals and his court was home to several Urdu writers of great repute including Mirza Ghalib, Dagh, Mumin, and Zauq",
+  "poster" : "shah_po.jpg",
+  "figh_image" : "shah.JPG"
+},
+
+{
+  "name" : "Mangal Pandey ",
+  "fighter_id" : "7",
+  "helper" : ["Pandey", "pushkar", "kuntal", "Mehul", "bablu", "punikt", "kooij ", "kiitan"],
+  "description" : "Mangal Pandey was born on 19 July 1827 in the village of Nagwa in the Ballia district of Uttar Pradesh. A sepoy in the 34th Regiment of the Bengal Native Infantry (BNI) of the English East India Company, he entered the annals of Indian history for attacking his British officers, sparking off the First War of Indian Independence or as the British termed it, the Sepoy Mutiny of 1857. At Barrackpore near Kolkata on 29 March 1857, Pandey attacked and injured his British sergeant, besides wounding an adjutant. A native soldier prevented him from killing the adjutant and the sergeant-major. He was arrested and sentenced to death. He was hanged on 8 April 1857. ",
+  "poster" : "pandey_po.jpg",
+  "figh_image" : "pandey.jpg"
+}
+
+]}
