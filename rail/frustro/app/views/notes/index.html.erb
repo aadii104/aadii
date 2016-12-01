@@ -1,10 +1,16 @@
-
-    <%if @notes.count == 0%>
-       <h1>There apre no notes for you</h1>
-    <% else %>
-          <% @notes.each do |note| %>
-           <h2><%= link_to  note.title, note%></h2>
-           <p> <%= time_ago_in_words(note.created_at)%></p>
-          <%end%>
-    <% end %>
-<%= link_to "New note", new_note_path%>
+<div class="container" style="height:550px">
+  <div class="panel panel-default index" >
+      <div class="row">
+            <div class="col-lg-5 col-lg-offset-4" >
+              <%if @notes.count == 0%>
+                 <h1 class="in-h1">There apre no notes for you. But its time to create some.</h1>
+              <% else %>
+                    <% @notes.each do |note| %>
+                     <h2 class="in-h2"><%= link_to  note.title, note%></h2>
+                     <p class="in-p"> <%= time_ago_in_words(note.created_at)%></p>
+                    <%end%>
+              <% end %>
+          </div>
+       </div>
+     </div>
+   </div>

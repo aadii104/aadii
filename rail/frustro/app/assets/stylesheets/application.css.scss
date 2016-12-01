@@ -4,10 +4,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import 'normalize.css';
-.img-f{
-  background-image: url("2.note.jpg");
-  width:100%;
-}
+/* sign_in form styling*/
+
+
+
+
+
+
+/*sign_in ends*/
 .topbar{
   font-size:25px;
   padding-top: 10px;
@@ -20,3 +24,82 @@
     margin-right: 56px;
     margin-top: 10px;
 }
+.bor{
+  border-right: 5px solid seagreen;
+  text-color:#ffffff!important;
+}
+body{
+    background: url(salck.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.index{
+     margin: 50px 200px 0 200px;
+     height:400px;
+     padding: 50px 50px 50px 50px;
+     border: 4px solid white;
+     border-radius: 10px;
+     background-color: #ea8509;
+     text-align: center;
+     overflow: scroll;
+}
+.in-h1{
+  color: white;
+  font-family:verdana ;
+}
+.in-h2{
+  color: white;
+  font-family:verdana ;
+}
+
+.in-h2 > a{color:white}
+.in-p{
+  color: white;
+  font-family:verdana ;
+  padding-bottom: 35px;
+}
+.bound{
+  margin-bottom: 15px;
+}
+.show{
+        margin: 50px 200px 0 200px;
+        height:400px;
+        padding: 30px 50px 50px 50px;
+        border: 4px solid white;
+        border-radius: 10px;
+        background-color: #ea8509;
+        text-align: center;
+}
+.sh-h2{
+      color :white;
+      font-size: 60px;
+      font-style: none;
+      font-weight: 500;
+      font-stretch: expanded;
+      font-size-adjust: auto;
+}
+.sh-p{
+      color :white;
+      font-size: 30px;
+      font-style: none;
+      font-weight: 300;
+      font-stretch: expanded;
+      font-size-adjust: auto;
+}
+.sh-div{
+  overflow: scroll;
+}
+.form-main{
+  margin-left: 18%;
+  margin-top: 10%;
+  width: 755PX;
+}
+
+.in-submit{
+  font-size: 20px;
+}
+#box{
+    height: 348px;
+    background-color: #ffffff;
+    padding: 65px 0px 0px 200px;
+     }
