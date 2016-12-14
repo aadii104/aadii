@@ -1,0 +1,9 @@
+<div class="form-main">
+<%= simple_form_for @note, :html =>{:multipart => true} do |f| %>
+  <div id=<%= "box#{@note.id}" -%>>
+    <%= f.input :title, lable: "Title"%>
+    <%= f.input :content%>
+    <%= f.button :submit, :class => 'in-submit' %>
+  </div>
+<% end %>
+</div>
