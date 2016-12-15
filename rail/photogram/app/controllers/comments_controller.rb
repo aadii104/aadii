@@ -6,8 +6,10 @@ class CommentsController < ApplicationController
         @comment.user_id = current_user.id
 
         if @comment.save
-          flash[:success] = "You commented"
-          redirect_to :back
+          responds_to do |format|
+            format.html {redirect_to root_path}
+            format.js
+          end
 
         else
           flash[:alert] = "Retry comment not saved"
@@ -15,13 +17,17 @@ class CommentsController < ApplicationController
         end
     end
     def destroy
-        @comment = @post.comments.find(params[:id])
+      @comment = @post.comments.find(params[:id])
 
-        @comment.destroy
-        flash[:success] = "Comment deleted :("
-        redirect_to root_path
-    end
+      if @comment.user_id == current_user.id
+        @comment.delete
+        respond_to do |format|
+          format.html { redirect_to root_path }
+          format.js
+        end
+      end
   end
+end
 
  private
     def comment_params
